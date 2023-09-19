@@ -1,0 +1,92 @@
+
+.logo{
+    display: flex;
+    position: relative;
+    left: 0%;
+    align-items: center;
+}
+.header{
+    display:flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    justify-content: space-around;
+    background-color: rgba(18, 18, 237, 0.375);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+.header1{
+    color: #ffffff;
+    font-size: 130%;
+
+}
+
+.gt{
+    margin: 5%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+   
+}
+.gtchild1{
+    position: relative;
+    width: 70%;
+    height: 200px;
+    display: inline-flex;
+    border: 1px solid pink;
+    background-size: contain;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    padding: 2%;
+}
+.box{
+    display: inline-flex;
+    border: 1px dashed pink;
+    margin: 2%;
+}
+.products{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5%;
+    position: relative;
+}
+.product{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 6px;
+    justify-content: center;
+    margin: 1%;
+}
+.bonus{
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+}
+.img2{
+    height: 8%;
+    width: 8%;
+}
+.giohang{
+    display: inline-flex;
+    position: fixed;
+    z-index: 9999;
+    right: 5%;
+    bottom: 10%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #476394;
+    color: #ffffff;
+}
